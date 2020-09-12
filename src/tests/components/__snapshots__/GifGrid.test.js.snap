@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid component should create 1`] = `
+<Fragment>
+  <h3>
+    Goku
+  </h3>
+  <p
+    className="animate__animated animate__flash animate__infinite"
+  >
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`GifGrid component should display the items from useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Goku
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="313221313"
+      key="313221313"
+      title="Title Image"
+      url="http://domain.com/image.png"
+    />
+  </div>
+</Fragment>
+`;
